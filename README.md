@@ -93,3 +93,6 @@ HTML Comparison:
 
 LLM Prompting:
     Prompts for the LLM performing the analysis could be tested and improved. The model could also be made more powerful which would improve analysis accuracy
+
+Web Crawling:
+    Depth of web crawling can be specficied. It's still quite slow so this should be run as a Batch / background process that can extract all the links of the webpage and save them into the DB. Then the HTML Analysis can be run and pull data from the DB to analyze.
