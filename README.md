@@ -91,3 +91,5 @@ HTML Comparison:
     The code compares HTML snapshots. It may need to be adapted for dynamic content beyond static HTML, or for other types of A/B tests.
 
 
+LLM Prompting:
+    Prompts for the LLM performing the analysis could be tested and improved. The model could also be made more powerful which would improve analysis accuracy
