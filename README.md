@@ -7,7 +7,7 @@ VWO Site Analyzer is a tool designed to monitor popular websites and analyze how
 
 ![Output Example 1](public/example_1.png)
 
-Notices that the stock quantity displayed is one of the A/B tests for a site. Some companies will use this for urgency to encourage buying.
+^ In the Photo above, LLM is able to notice that stock quantity changes in the website. This is a potential A/B test, as some companies will use stock quanitity to generate urgency to get customers to buy faster.
 
 ![Output Example 2](public/example_2.png)
 
@@ -90,9 +90,11 @@ Data Storage:
 HTML Comparison:
     The code compares HTML snapshots. It may need to be adapted for dynamic content beyond static HTML, or for other types of A/B tests.
 
-
 LLM Prompting:
     Prompts for the LLM performing the analysis could be tested and improved. The model could also be made more powerful which would improve analysis accuracy
 
 Web Crawling:
     Depth of web crawling can be specficied. It's still quite slow so this should be run as a Batch / background process that can extract all the links of the webpage and save them into the DB. Then the HTML Analysis can be run and pull data from the DB to analyze.
+
+Not Using VPN:
+    a VPN could be used in the future to perhaps see how the website changes depending on the location / IP Address of the user.
