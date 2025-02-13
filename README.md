@@ -11,7 +11,7 @@ Notices that the stock quantity displayed is one of the A/B tests for a site. So
 
 ![Output Example 2](public/example_2.png)
 
-Notices the color schema changes within CSS
+Able to scan DB to see actual HTML differences between base site and it's variations
 
 
 ## Video Explanation
