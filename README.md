@@ -45,7 +45,7 @@ Understanding how popular sites run their A/B tests can be key to optimizing you
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/vwo-site-analyzer.git
+   git clone https://github.com/RaymondRJones/VWO-Analysis-Tool.git
    cd VWO-Analysis-Tool
    ```
 
