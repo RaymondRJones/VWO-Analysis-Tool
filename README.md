@@ -5,8 +5,8 @@ VWO Site Analyzer is a tool designed to monitor popular websites and analyze how
 ## Why This Project?
 
 Understanding how popular sites run their A/B tests can be key to optimizing your own experiments. This project was developed with the following goals in mind:
-- **Insightful Analysis:** Compare HTML snapshots of websites to identify changes that may indicate A/B testing strategies.
-- **Rapid Insights:** Use OpenAI's 4o-mini model to quickly analyze differences in HTML and provide actionable insights.
+- **Insights and Analysis:** Compare HTML snapshots of websites to identify changes that may indicate A/B testing strategies.
+- **Fast** Use OpenAI's 4o-mini model to quickly analyze differences in HTML and provide actionable insights.
 - **Flexibility:** While the focus is on VWO, this code can be extended to analyze other types of A/B testing (e.g., Google experiments).
 - **Persistent Storage:** The use of an SQLite database, although not optimal for large-scale data storage, provides a quick and persistent solution to archive HTML snapshots and analysis results.
 
@@ -30,7 +30,7 @@ Understanding how popular sites run their A/B tests can be key to optimizing you
 
    ```bash
    git clone https://github.com/yourusername/vwo-site-analyzer.git
-   cd vwo-site-analyzer
+   cd VWO-Analysis-Tool
    ```
 
 2. **Install Dependencies**
@@ -68,12 +68,10 @@ This project leverages OpenAI's 4o-mini model to analyze the HTML differences an
 
 ## Limitations
 
-Limitations
-
-    Data Storage:
+Data Storage:
     SQLite is used for persistent storage. While not optimal for very large datasets or high concurrency, it was chosen for its simplicity and ease of use under a short development deadline.
 
-    HTML Comparison:
+HTML Comparison:
     The code compares HTML snapshots. It may need to be adapted for dynamic content beyond static HTML, or for other types of A/B tests.
 
 
