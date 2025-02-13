@@ -2,6 +2,10 @@
 
 VWO Site Analyzer is a tool designed to monitor popular websites and analyze how they implement A/B testing. By tracking and comparing full HTML snapshots of web pages, this tool helps you understand the variations in A/B tests (such as those run with VWO, Google, or other platforms) so you can improve your own testing strategies and make informed decisions.
 
+## Video Explanation
+
+[Video Link](https://www.loom.com/share/3a9925a2893642eab8bf1a5060bac28f?sid=f95bc6d8-78bb-4f09-be9c-5a1eab01ce6a)
+
 ## Why This Project?
 
 Understanding how popular sites run their A/B tests can be key to optimizing your own experiments. This project was developed with the following goals in mind:
