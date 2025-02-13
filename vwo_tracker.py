@@ -10,6 +10,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 # Add your own API Key Here
